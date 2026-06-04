@@ -177,7 +177,7 @@ Vendor-Performance-Analysis
 
 (Add your dashboard screenshot here)
 
-![Dashboard](Screenshots/Dashboard.png)
+![Dashboard]("C:\Users\Shruti\OneDrive\Pictures\Screenshots\Screenshot 2026-06-04 131125.png")
 
 ---
 
