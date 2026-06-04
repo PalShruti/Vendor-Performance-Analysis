@@ -175,9 +175,7 @@ Vendor-Performance-Analysis
 
 ## Dashboard Preview
 
-(Add your dashboard screenshot here)
-
-![Dashboard]("C:\Users\Shruti\OneDrive\Pictures\Screenshots\Screenshot 2026-06-04 131125.png")
+https://github.com/PalShruti/Vendor-Performance-Analysis/blob/main/Dashboard.png
 
 ---
 
