@@ -2,24 +2,24 @@
 
 ## About the Project
 
-This project focuses on analyzing vendor performance using Python, SQL, and Power BI. The goal is to understand how different vendors and brands contribute to overall sales, purchases, profit, and inventory performance.
+This project analyzes vendor performance using Python, SQL, and Power BI. The objective is to understand vendor and brand contributions to sales, purchases, profitability, and inventory performance.
 
-Using data analysis techniques and interactive Power BI visualizations, this dashboard helps identify top-performing vendors, low-performing vendors, profitable brands, and inventory-related issues.
+The dashboard provides interactive visualizations and business insights that help identify top-performing vendors, low-performing vendors, profitable brands, and inventory-related issues.
 
 ---
 
 ## Project Objectives
 
-- Analyze vendor sales and purchase data.
+- Analyze vendor sales and purchase performance.
 - Measure overall profitability.
-- Identify top vendors and top-selling brands.
-- Find low-performing vendors based on inventory turnover.
-- Monitor unsold inventory and capital blocked in stock.
+- Identify top-performing vendors and brands.
+- Detect low-performing vendors based on inventory turnover.
+- Monitor unsold inventory and blocked capital.
 - Present business insights through an interactive dashboard.
 
 ---
 
-## Tools Used
+## Tools & Technologies
 
 - Python
 - Pandas
@@ -28,14 +28,16 @@ Using data analysis techniques and interactive Power BI visualizations, this das
 - Seaborn
 - SQL
 - Power BI
+- DAX
+- Power Query
 
 ---
 
 ## Dataset Information
 
-The dataset contains vendor, sales, purchase, and inventory information.
+The dataset contains vendor, sales, purchase, inventory, and profitability data.
 
-Some important fields used in the analysis are:
+### Key Fields
 
 - Vendor Name
 - Brand Name
@@ -46,7 +48,16 @@ Some important fields used in the analysis are:
 - Gross Profit
 - Profit Margin
 - Stock Turnover
-- Sales to Purchase Ratio
+- Sales-to-Purchase Ratio
+
+---
+
+## Dataset Access
+
+The complete dataset and Power BI dashboard files are available through Google Drive due to GitHub file size limitations.
+
+**Complete Project Files (.zip)**   
+[Download Dataset](https://drive.google.com/file/d/15ghDQaqYod60o5vKYL2uJxsDPUZ3iU6k/view?usp=drive_link)
 
 ---
 
@@ -54,20 +65,19 @@ Some important fields used in the analysis are:
 
 ### 1. Data Collection
 
-The dataset was collected in CSV format and imported into Python for analysis.
+- Collected vendor sales and purchase data.
+- Imported CSV files into Python for analysis.
 
 ### 2. Data Cleaning
 
-The following preprocessing steps were performed:
-
-- Removed duplicate records
-- Checked for missing values
-- Corrected data types
-- Prepared data for analysis
+- Removed duplicate records.
+- Checked and handled missing values.
+- Corrected data types.
+- Prepared data for analysis.
 
 ### 3. Data Analysis
 
-Several business metrics were calculated, including:
+Calculated important business metrics:
 
 - Total Sales
 - Total Purchase
@@ -78,23 +88,33 @@ Several business metrics were calculated, including:
 
 ### 4. Statistical Analysis
 
-To gain deeper insights, statistical techniques such as:
+Performed:
 
 - Confidence Interval Analysis
 - Vendor Segmentation
 - Two-Sample T-Test
 
-were performed using Python.
-
 ### 5. Dashboard Development
 
-After analysis, the cleaned dataset was imported into Power BI and transformed into an interactive dashboard.
+- Imported cleaned data into Power BI.
+- Built an interactive dashboard.
+- Created KPIs and visualizations for business insights.
 
 ---
 
-## Dashboard Highlights
+## Dashboard KPIs
 
-The dashboard provides a complete overview of vendor performance through:
+| KPI | Value |
+|------|--------|
+| Total Sales | 441.41M |
+| Total Purchase | 307.34M |
+| Gross Profit | 134.07M |
+| Profit Margin | 38.72% |
+| Unsold Capital | 2.71M |
+
+---
+
+## Dashboard Features
 
 ### KPI Cards
 
@@ -104,46 +124,46 @@ The dashboard provides a complete overview of vendor performance through:
 - Profit Margin
 - Unsold Capital
 
-### Purchase Contribution Analysis
+### Visualizations
 
-Shows the percentage contribution of major vendors to total purchases.
+- Purchase Contribution Analysis
+- Top Vendors by Sales
+- Top Brands by Sales
+- Low Performing Vendors
+- Low Performing Brands
+- Inventory Performance Analysis
 
-### Top Vendors by Sales
+### Interactive Features
 
-Displays vendors generating the highest sales revenue.
-
-### Top Brands by Sales
-
-Highlights the best-performing brands.
-
-### Low Performing Vendors
-
-Identifies vendors with low inventory turnover.
-
-### Low Performing Brands
-
-Shows brands that require attention due to lower performance.
+- Slicers
+- Cross Filtering
+- Cross Highlighting
+- Drill-down Analysis
 
 ---
 
+## Dashboard Preview
+
 ## Key Insights
 
-- A small group of vendors contributes a major portion of total purchases.
+- A small group of vendors contributes the majority of total purchases.
 - DIAGEO NORTH AMERICA INC is one of the highest-performing vendors.
 - Jack Daniels No 7 Black is the top-selling brand.
-- Some vendors have low stock turnover, indicating slow inventory movement.
-- The business generated strong profits with an average profit margin of approximately 39%.
+- Several vendors have low stock turnover, indicating slow inventory movement.
+- The business generated over 134 million in gross profit.
+- Profit margins remain close to 39%, indicating strong profitability.
 
 ---
 
 ## Power BI Features Used
 
-- Cards
-- Donut Chart
+- KPI Cards
+- Donut Charts
 - Bar Charts
 - Scatter Plot
-- Cross Filtering
-- Cross Highlighting
+- Slicers
+- DAX Measures
+- Power Query
 - Interactive Dashboard Design
 
 ---
@@ -153,47 +173,68 @@ Shows brands that require attention due to lower performance.
 ```text
 Vendor-Performance-Analysis
 │
-├── Dataset
-│   └── vendor_sales_summary.csv
+├── README.md
+├── Dashboard.png
+├── Vendor_Performance_Analysis.ipynb
+├── Project_Report.pdf
+├── sample_dataset.csv
 │
-├── Jupyter Notebook
-│   └── Vendor_Performance_Analysis.ipynb
-│
-├── Power BI Dashboard
-│   └── Vendor_Performance_Dashboard.pbix
-│
-├── Screenshots
-│   └── Dashboard.png
-│
-├── Documentation
-│   └── Project_Report.pdf
-│
-└── README.md
+└── Google Drive Links
+    ├── Full Dataset
+    ├── Power BI Dashboard (.pbix)
+    └── Complete Project ZIP
 ```
 
----
+## Skills Demonstrated
 
-## Dashboard Preview
-
-https://github.com/PalShruti/Vendor-Performance-Analysis/blob/main/Dashboard.png
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- SQL Querying
+- Power BI Dashboard Development
+- Data Visualization
+- Business Intelligence Reporting
+- Insight Generation
 
 ---
 
 ## What I Learned
 
-Through this project, I gained hands-on experience in:
+Through this project, I gained experience in:
 
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- Power BI Dashboard Development
-- DAX Calculations
-- Business Intelligence Reporting
+- Data preprocessing and cleaning
+- Exploratory Data Analysis
+- Statistical testing
+- Building interactive Power BI dashboards
+- Creating business-focused visualizations
+- Generating actionable insights from data
+
+---
+
+## Future Improvements
+
+- Real-time dashboard updates
+- Vendor performance scoring model
+- Sales forecasting
+- Inventory demand prediction
+- Automated reporting pipeline
 
 ---
 
 ## Author
 
-**Shruti**
+**Shruti Pal**
 
-Data Analytics Project using Python, SQL, and Power BI.
+Aspiring Data Analyst
+
+### Skills
+
+- Power BI
+- SQL
+- Python
+- Excel
+- Data Visualization
+
+
+⭐ If you found this project interesting, feel free to explore the repository and connect with me.
