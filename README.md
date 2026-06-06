@@ -238,3 +238,4 @@ Aspiring Data Analyst
 
 
 ⭐ If you found this project interesting, feel free to explore the repository and connect with me.
+Email: shrutivrpal5258@gmail.com
